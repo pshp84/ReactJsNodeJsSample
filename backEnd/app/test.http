@@ -1,0 +1,13 @@
+POST  http://localhost:8081/Order
+Content-type:application/json
+
+{
+    "orderId": "test@gmail.com",
+    "userId":"test",
+    "status":"done",
+    "tableNo":"1",
+    "total":"250",
+    "items":"pizza",
+    "transactionId":"456"
+     
+}
